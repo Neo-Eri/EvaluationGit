@@ -1,0 +1,29 @@
+- git init : crée automatiquement la branche master.
+- git branch dev : créer une branche.
+- git branch : afficher les branches du dépôt.
+- git checkout dev : se déplacer sur l'autre branche.
+- git checkout master : revenir sur la branche master.
+- git branch -d : supprimer une branche.
+- git branch -D : forcer la suppression d'une branche.
+- git merge dev : merger dev dans et depuis master.
+- git merge dev --no-ff : faire un commit de merge dans une situation de divergence de branche.
+- git branch --no-merged : lister les branches non mergées.
+- git log --oneline --graph : visualiser le graph des commit à partir de la branche master.
+- git stash : remiser le code sans faire de commit.
+- git stash list : lister les stash sur la branche.
+- git stash apply : récupérer le contenu remisé et l'appliquer.
+- git stash drop : supprimer le contenu de la remise.
+- git stash apply --index : remettre ce qui était dans l'index.
+- git tag -a v1.0 -m "commentaire" : créer un tag.
+- git tag : lister les tags.
+- git tag -1 '...' : chercher un tag.
+- git show v8.2 : voir un tag annoté.
+- cd GitServer : créer un dossier sur le bureau.
+- mkdir server.git : créer un fichier.
+- cd server.git : se rendre dans le fichier.
+- git --bare init : créer un serveur git.
+- git remote add origin .../.../... : indiquer ou se trouve le serveur en local.
+- git push origin master : push la branche master du dépôt dans le serveur origin. 
+- git pull origin master : pull la branche master du serveur.
+- git remote : lister les dépôts distants.
+- git remote add [fichier] : ajouter un dépôt distant.
