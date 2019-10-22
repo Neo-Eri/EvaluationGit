@@ -1,0 +1,17 @@
+- git --no-pager log --oneline : afficher les logs et sortir de la commande.
+- git --no-pager log -3 --oneline : afficher les trois derniers commits et sortir de la commande.
+- git log --author "Nom" : consulter les commits d'un auteur en particulier.
+- git log --since=1.day et git log --before="AAAA-MM-JJ" : consulter les commits à partir d'une date précise.
+- git log fichier.txt : consulter l'historique d'un fichier.
+- git log --stat fichier.txt : visualiser les statistiques de modification des fichiers.
+- git blame fichier.txt : savoir qui a fait des modifications.
+- git diff : afficher les modifications.
+- git diff --cached : afficher les différences entre le dernier commit et l'index.
+- git diff HEAD-1 : voir les modifications un commit en arrière.
+- git restore fichier.txt : remettre le dépôt dans l'état ou il se trouvait avant une modification.
+- git restore --staged : remettre le dépôt dans l'état précédent alors qu'il a déjà été indexé.
+- git commit "commentaire" --amend --no-edit : changer le message du dernier commit.
+- git reset HEAD-1 : annuler le dernier commit et le mettre dans le WD.
+- git reset --soft HEAD-1 : revenir au commit précédent sans perte.
+- git reset 0af76GF (cle de hachage) : déplacer le master sur le commit indiqué en annulant les commits sans perte.
+- git reset --hard HEAD-1 : annule le dernier commit et supprime les modifications.
